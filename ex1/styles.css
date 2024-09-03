@@ -4,10 +4,14 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-header.container {
+.container {
   background-color: #fff;
+  width: 100%;
   padding: 20px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -16,6 +20,8 @@ header.container {
 header.container img {
   border-radius: 50%;
   margin-bottom: 10px;
+  width: 100px;
+  height: auto;
 }
 
 header.container h1 {
