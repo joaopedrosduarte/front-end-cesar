@@ -1,6 +1,9 @@
+# Proiba tudo
 * 
 
+# Libere essas pastas
 !ex*
 !ex*/*
 
+# Libere esses arquivos
 !.gitignore
